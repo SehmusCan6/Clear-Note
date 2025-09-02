@@ -50,7 +50,7 @@ try {
     $mail->Port = 587;
 
     // Mail content
-    $mail->setFrom('a80388616@gmail.com', 'Plan Reminder');
+    $mail->setFrom('#', 'Plan Reminder');
     $mail->addAddress($user['email'], $user['name'] . ' ' . $user['surname']);
 
     $mail->isHTML(true);
